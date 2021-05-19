@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
   def index
-    render component: "Pages"
+    @pages = Page.all
+    render component: "Pages", props:{pages:@pages}
   end
 end
