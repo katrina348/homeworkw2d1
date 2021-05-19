@@ -10,6 +10,7 @@ const Page = (props) => {
       <p>{page.author}</p>
       <p>{page.body}</p>
       <a href={`/pages/${page.id}`}>show page</a>
+      <a href={`/pages/${page.id}/edit`}>edit page</a>
       <a href={`/pages/${page.id}`} data-method="delete">delete page</a>
     </div>
   )
