@@ -3,4 +3,3 @@ class PagesController < ApplicationController
     render component: "Pages"
   end
 end
-
