@@ -19,7 +19,8 @@ const Pages = (props) => {
   }
   return(
     <div>
-      <h1>Pages here</h1>
+      <h1>Notes</h1>
+      <a href='/pages/new'>create a new page</a>
       { renderPages() }
     </div>
   )
